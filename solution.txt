@@ -1,0 +1,91 @@
+501  cd fundamentals
+  502  cd command-line-murder-mystery/
+  503  cat instructions
+  504  cd mystery
+  505  ls -la
+  506  cat crimescene | grep "CLUE"
+  507  cat people | grep "Annabel"
+  508  cat memberships | grep "Annabel"
+  509  cd memberships
+  510  ls -la
+  511  cd ..
+  512  grep "Annabel" *
+  513  cat hint1
+  514  pwd
+  515  cd ..
+  516  cat hint1
+  517  cd hint2
+  518  cat hint2
+  519  cat hint3
+  520  cat hint4
+  521  head -n 20 mystery/interview
+  522  cat hint5
+  523  1
+  524  head -n 173 streets/Mattapan_Street | tail -n 1
+  525  cd mystery 
+  526  head -n 173 streets/Mattapan_Street | tail -n 1
+  527  cd ..
+  528  nano mystery/interview/interview-9437737
+  529  cd mystery
+  530  cd interviews
+  531  nano interview-9437737
+  532  cd ..
+  533  head -n 176 streets/Haley_Street | tail -n 1
+  534  nano mystery/interviews/interview-871877
+  535  cd interviews
+  536  nano interview-871877
+  537  cd ..
+  538  head -n 40 streets/Hart_Place | tail -n 1
+  539  cd interviews
+  540  nano interview-47246024
+  541  cd ..
+  542  head -n 179 streets/Buckingham_Place | tail -n 1
+  543  cd interviews
+  544  nano interview-699607
+  545  cd ..
+  546  cd memberships
+  547  ls -la
+  548  grep "Annabel" *
+  549  cd ..
+  550  cd vehicles
+  551  head -n 20 vehicles
+  552  grep -A 4 "Howard" famousducks.txt
+  553  grep -A 5 "L337" vehicles
+  554  cd ..
+  555  cat hint6
+  556  cat hint7
+  557  cat hint8
+  558  License Plate L337539
+  559  Make: Honda
+  560  Color: Blue
+  561  Owner: Aron Pilhofer
+  562  Height: 5'3"
+Weight: 198 lbs
+
+  563  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jacqui Maher"
+  564  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  565  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  566  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
+  567  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  568  cd memberships
+  569  cd mystery
+  570  cd memberships
+  571  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jacqui Maher"
+  572  cat Fitness_Galaxy AAA United_MileagePlus | grep "Jeremy Bowers"
+  573  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Jeremy Bowers"
+  574  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Joe Germuska"
+  575  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "Aron Pilhofer"
+  576  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jacqui Maher"
+  577  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Jeremy Bowers"
+  578  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Joe Germuska"
+  579  cat AAA Delta_SkyMiles library.txt Museum_of_Bash_History | grep -c "Aron Pilhofer"
+  580  cd ..
+  581  cd people
+  582  cat people | grep "Jacqui Maher"
+  583  pwd
+  584  cd ..
+  585  touch solution.txt
+  586  nano solution.txt
+  587  history
+
+Name of Killer : Jeremy Bowers
